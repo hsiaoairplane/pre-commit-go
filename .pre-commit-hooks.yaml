@@ -1,0 +1,18 @@
+-   id: go-fmt
+    name: go fmt
+    description: Format source code with gofmt.
+    entry: go-fmt.sh
+    language: script
+    files: \.go$
+-   id: go-vet
+    name: go vet
+    description: Examines source code and reports suspicious constructs with go vet.
+    entry: go-vet.sh
+    language: script
+    files: \.go$
+-   id: go-imports
+    name: go imports
+    description: Updates import lines, adding missing ones and removing unreferenced ones with goimports.
+    entry: go-imports.sh
+    language: script
+    files: \.go$
