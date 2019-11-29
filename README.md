@@ -13,3 +13,6 @@ At your repository, add the following to the file `.pre-commit-config.yaml`:
     -   id: go-vet
     -   id: go-imports
 ```
+
+Example output:
+![Demo](assets/demo.png)
