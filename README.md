@@ -7,11 +7,12 @@
 At your repository, add the following to the file `.pre-commit-config.yaml`:
 ```yaml
 -   repo: https://github.com/jenting/pre-commit-go
-    rev: v1.0.1
+    rev: v1.0.2
     hooks:
     -   id: go-fmt
     -   id: go-vet
     -   id: go-imports
+    -   id: go-mod
 ```
 
 Example output:

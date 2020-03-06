@@ -16,3 +16,9 @@
     entry: go-imports.sh
     language: script
     files: \.go$
+-   id: go-mod
+    name: go mod
+    description: Updates vendor folder with go mod.
+    entry: go-mod.sh
+    language: script
+    files: \.go$
